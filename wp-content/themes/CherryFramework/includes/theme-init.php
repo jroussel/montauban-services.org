@@ -71,7 +71,7 @@ function my_post_type_portfolio() {
 			'capability_type'   => 'page',
 			'menu_icon'         => ( version_compare( $GLOBALS['wp_version'], '3.8', '>=' ) ) ? 'dashicons-portfolio' : PARENT_URL . '/includes/images/icon_portfolio.png',
 			'rewrite'           => array(
-										'slug'       => 'portfolio-view',
+										'slug'       => 'galerie-photos',
 										'with_front' => FALSE,
 									),
 			'supports' => array(

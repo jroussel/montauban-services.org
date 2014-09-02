@@ -21,13 +21,4 @@
 			<?php wp_get_archives( 'type=monthly' ); ?>
 		</ul>
 	</div>
-
-	<div id="sidebar-meta" class="widget">
-		<?php echo '<h3>' . theme_locals("meta") . '</h3>'; ?>
-		<ul>
-			<?php wp_register(); ?>
-			<li><?php wp_loginout(); ?></li>
-			<?php wp_meta(); ?>
-		</ul>
-	</div>
 <?php endif; ?>

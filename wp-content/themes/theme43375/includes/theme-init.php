@@ -78,7 +78,7 @@ function my_post_type_portfolio() {
 				'capability_type' => 'page',
 				'menu_icon' => get_template_directory_uri() . '/includes/images/icon_portfolio.png',
 				'rewrite' => array(
-					'slug' => 'portfolio-view',
+					'slug' => 'galerie-photos',
 					'with_front' => FALSE,
 				),
 				'supports' => array(

@@ -1,6 +1,9 @@
 @import url("../CherryFramework/style.css");
 html, body { min-height:100%; }
-body { background:url(images/bg.jpg) 50% 0 repeat; }
+body {
+	background:url(images/bg.jpg) 50% 0 repeat;
+	background-color:#999999;
+}
 a {
 	-webkit-transition:all 0.3s ease;
 	-moz-transition:all 0.3s ease;
@@ -29,15 +32,18 @@ h4, h5 { margin-bottom:3px; }
 	z-index:5;
 }
 #twitter_h {
-	margin-top:8px;
-	padding:17px 0 0 95px;
 	float:right;
-	width:159px;
-	height:38px;
+	width:225px;
+	height:60px;
 	font-size:17px;
 	line-height:17px;
 	color:#9a9e9f;
-	background:url(images/twitter_plane.png) 0 0 no-repeat;
+	background:url(images/1372403551.png) 0 0 no-repeat;
+}
+#twitter_h a {
+	width:225px;
+	height:60px;
+	display:block;
 }
 .logo { margin-bottom:27px; }
 .logo_h__txt a {
