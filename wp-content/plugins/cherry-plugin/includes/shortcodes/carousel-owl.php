@@ -25,7 +25,7 @@ if ( !function_exists('shortcode_carousel_owl') ) {
 			'display_navs'       => 'yes',
 			'display_pagination' => 'yes',
 			'custom_class'       => ''
-		), $args) );
+		), $atts ) );
 
 		$random_ID          = uniqid();
 		$posts_count        = intval( $posts_count );
@@ -37,7 +37,7 @@ if ( !function_exists('shortcode_carousel_owl') ) {
 		$auto_play          = absint( $auto_play );
 		$date               = $date == 'yes' ? true : false;
 		$author             = $author == 'yes' ? true : false;
-		$comments           = $author == 'yes' ? true : false;
+		$comments           = $comments == 'yes' ? true : false;
 		$display_navs       = $display_navs == 'yes' ? 'true' : 'false';
 		$display_pagination = $display_pagination == 'yes' ? 'true' : 'false';
 		$itemcounter = 0;
