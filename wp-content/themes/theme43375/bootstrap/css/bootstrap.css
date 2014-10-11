@@ -88,7 +88,7 @@ body {
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:12px;
 	line-height:18px;
-	color:#86b4d9;
+	color:#1f6bec;
 	background-color:#fff;
 }
 a {
@@ -784,7 +784,7 @@ input:focus:required:invalid:focus, textarea:focus:required:invalid:focus, selec
 	line-height:0;
 }
 .form-actions:after { clear:both; }
-.help-block, .help-inline { color:#c0d8eb; }
+.help-block, .help-inline { color:#669af2; }
 .help-block {
 	display:block;
 	margin-bottom:9px;

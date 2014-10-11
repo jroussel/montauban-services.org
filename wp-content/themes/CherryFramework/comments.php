@@ -29,10 +29,6 @@
 	<?php if ( comments_open() ) : ?>
 			<!-- If comments are open, but there are no comments. -->
 		<?php echo '<p class="nocomments">' . theme_locals("no_comments_yet") . '</p>'; ?>
-		<?php else : // comments are closed ?>
-			<!-- If comments are closed. -->
-		<?php echo '<p class="nocomments">' . theme_locals("comments_are_closed") . '</p>'; ?>
-
 		<?php endif; ?>
 	
 	<?php endif; ?>

@@ -188,7 +188,7 @@ if(!function_exists('optionsframework_options')) {
 		$options['google_mixed_3'] = array( 'name' => 'Body Text',
 							'desc' => 'Choose your prefered font for body text. <em>Note: fonts marked with <strong>*</strong> symbol will be loaded from the <a href="http://www.google.com/webfonts">Google Web Fonts</a> library.</em>',
 							'id' => 'google_mixed_3',
-							'std' => array( 'size' => '12px', 'lineheight' => '18px', 'face' => 'Arial, Helvetica, sans-serif', 'style' => 'normal', 'character'  => 'latin', 'color' => '#86b4d9'),
+							'std' => array( 'size' => '12px', 'lineheight' => '18px', 'face' => 'Arial, Helvetica, sans-serif', 'style' => 'normal', 'character'  => 'latin', 'color' => '#1f6bec'),
 							'type' => 'typography',
 							'options' => array(
 									'faces' => $typography_mixed_fonts )
@@ -197,7 +197,7 @@ if(!function_exists('optionsframework_options')) {
 		$options['h1_heading'] = array( 'name' => 'H1 Heading',
 							'desc' => 'Choose your prefered font for H1 heading and titles. <em>Note: fonts marked with <strong>*</strong> symbol will be loaded from the <a href="http://www.google.com/webfonts">Google Web Fonts</a> library.</em>',
 							'id' => 'h1_heading',
-							'std' => array( 'size' => '28px', 'lineheight' => '28px', 'face' => 'Salsa', 'style' => 'normal', 'character'  => 'latin', 'color' => '#86b4d9'),
+							'std' => array( 'size' => '28px', 'lineheight' => '28px', 'face' => 'Salsa', 'style' => 'normal', 'character'  => 'latin', 'color' => '#1f6bec'),
 							'type' => 'typography',
 							'options' => array(
 									'faces' => $typography_mixed_fonts )
@@ -323,7 +323,7 @@ if(!function_exists('optionsframework_options')) {
 		$options[] = array( 'name' => 'Menu Typography',
 							'desc' => 'Choose your prefered font for menu. <em>Note: fonts marked with <strong>*</strong> symbol will be loaded from the <a href="http://www.google.com/webfonts">Google Web Fonts</a> library.</em>',
 							'id' => 'menu_typography',
-							'std' => array( 'size' => '25px', 'lineheight' => '25px', 'face' => 'Salsa', 'style' => 'normal', 'character'  => 'latin', 'color' => '#86b4d9'),
+							'std' => array( 'size' => '25px', 'lineheight' => '25px', 'face' => 'Salsa', 'style' => 'normal', 'character'  => 'latin', 'color' => '#1f6bec'),
 							'type' => 'typography',
 							'options' => array(
 									'faces' => $typography_mixed_fonts )
@@ -634,7 +634,7 @@ if(!function_exists('optionsframework_options')) {
 		$options[] = array( 'name' => 'Footer Menu Typography',
 							'desc' => 'Choose your prefered font for menu. <em>Note: fonts marked with <strong>*</strong> symbol will be loaded from the <a href="http://www.google.com/webfonts">Google Web Fonts</a> library.</em>',
 							'id' => 'footer_menu_typography',
-							'std' => array( 'size' => '14px', 'lineheight' => '28px', 'face' => 'Arial, Helvetica, sans-serif', 'style' => 'normal', 'character'  => 'latin', 'color' => '#86b4d9'),
+							'std' => array( 'size' => '14px', 'lineheight' => '28px', 'face' => 'Arial, Helvetica, sans-serif', 'style' => 'normal', 'character'  => 'latin', 'color' => '#1f6bec'),
 							'type' => 'typography',
 							'options' => array(
 									'faces' => $typography_mixed_fonts )
